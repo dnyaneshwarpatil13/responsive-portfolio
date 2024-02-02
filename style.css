@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar
+{
+    margin: 14;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    z-index: 999;
+    -webkit-transition: 3s;
+    transition: 3s;
+ 
+    
+}
+.navbar .navbar-nav .nav-link
+{
+    padding: 1.875rem 1.25rem;
+    color: var(--text-white);
+    text-transform: capitalize;
+    transition: 3s;
+}  
+
+.navbar-brand img
+{
+    max-width: 30%;
+} 
+
+
+.navbar-sticky-on .navbar-nav .nav-link:hover,
+.navbar-sticky-on .navbar-nav .nav-link:active
+{
+    color: blue !important;
+
+}
+
+
+.navbar-sticky-on .navbar-nav .nav-link
+{
+    color: gray !important;
+}
+
+
+.navbar .nvabar-brand-sticky
+{
+  display: none;
+}
+.navbar-sticky-on .navbar-brand-regular
+{
+    display: none;
+}
+
+
+.navbar-sticky-on .navbar-brand-sticky
+{
+    display: inline;
+}
+
+.navbar-sticky
+{
+    -webkit-transition: none;
+    transition: none;
+}
+
+.navbar-sticky-transitioned
+{
+    -webkit-transition: 3s;
+    transition: 3s;
+}
+
+.navbar-sticky-move-up{
+    position: fixed;
+    top: 0;
+    background: white;
+    margin-top: 6.25rem;
+}
+
+.navbar-sticky-on{
+    margin-top: 0;
+    -webkit-transition: 3s;
+    transition: 0;
+    -webkit-box-shadow: rgba(0,0,0,0,1) 0px 0px 20px;
+    box-shadow: rgba(0,0,0,0,1) 0px 0px 20px;
+}
+.navbar-toggler{
+    padding-right: 0;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar-toggler-icon{
+    color: white;
+    width: 1rem;
+    height: 1rem;
+}
+.navbar-sticky-on .navbar-toggler-icon{
+    color: black;
+}
+.navbar .navbar-nav{
+   
+    border-radius: 0.188rem;
+    text-align: center;
+
+}
+.navbar-nav{
+    text-align: right;
+}
+.navbar.navbar-nav .nav-link{
+    padding: 0.625rem 1.5rem;
+    counter-reset: gray;
+}
+.index{
+    background-color: #B4B4B8;
+}
+
+
+/*home css*/
+#home{
+   
+    min-height: 900px;
+    height: 100%;
+    background: rgba(0,0,0,0) url(../image/images/download1.png ) no-repeat scroll left center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#home .home_text h2{
+    font-size: 3.93rem;
+    font-weight: 700;
+    line-height: 4.938rem;
+    color: white;
+    padding: 1.063rem 0;  
+}
+
+#home .home_text p{
+    font-size: 1rem;
+    color: white;
+    padding: 1.063 0;
+}
+
+#home .home-download-btn{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+#home .home-download-btn .btn{
+    padding: 1rem 2rem;
+    margin-left: 1.5rem;
+    color: var(--text-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#home .home-download-btn .btn:first-child{
+    margin-left: 0;
+}
+#home .home-download-btn .btn:hover{
+    transform: translateY(-0.313rem);
+    -webkit-transition:all .5s ease-out;
+    -moz-transition:all .5s ease-out;
+    -ms-transition:all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+}
+#home .home-download-btn span{
+    font-size: 1.688rem;
+    margin-right: 0.625;
+}
+
+.home-image{
+    text-align: right;
+   
+}
+/*.home-image img{
+    animation: float 3s linear infinite;
+
+}
+@keyframes float{
+    0%,100%
+    {
+        transform: translateY(0rem);
+    }
+    50%{
+        transform: translateY(-3.5rem);
+    }
+}*/
+button{
+    color: aqua;
+    background: red;
+    border-radius: 2px;
+}
+
+.main img{
+    width: 1300px;
+    height: auto;
+    margin: -50px;
+    padding: -12px;
+    max-height: 1500px;
+}
+ i{
+    color: black;
+    font-size: 20px;
+ }   
+
+
+.edit {
+   color: black;
+   margin-top: 590px;
+   margin-left: 101px;
+   
+}
+.hero{
+    margin-left: 600px;
+    margin-top: -470px;
+}
+
+.boy{
+    
+   margin-left: 152px;
+    margin-top: -40%;
+    margin-bottom: 80%;
+    max-width: 25%;
+}
+
+/*about*/
+.about1{
+    background-color: #C7C8CC;
+}
+.about2{
+    margin: 24;
+    position: absolute;
+    text-align: right;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    z-index: 999;
+    -webkit-transition: 3s;
+    transition: 3s;
+   
+}
+.btnn{
+    margin: 12px;
+    padding: 9px;
+    background: black;
+}
+.nav-link{
+    margin: 12px;
+    padding: 9px;
+    background: black;
+}
+
+.cont1{
+    max-width: 1300px;
+    max-height: 4%;
+    margin: 0;
+}
+.contact1{
+    text-align: right;
+}
+
+.cont3{
+    text-align: center;
+    margin-top: auto;
+    color:black;
+}
+.cont4{
+    font-size: 30px;
+}
+
+/*About Sill*/
+.skill{
+    font-size: 40px;
+}
+.contact{
+    background-color: #E3E1D9;
+}
